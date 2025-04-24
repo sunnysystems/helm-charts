@@ -2,10 +2,11 @@
 public helm charts repository
 
 
-To use the charts run it:
+In order to use the charts, run:
 
 helm repo add sunny-systems 'helm repo add sunny-systems 'https://raw.githubusercontent.com/sunnysystems/helm-charts/main'
 
 helm repo update
 
 helm search repo
+
