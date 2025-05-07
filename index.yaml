@@ -3,7 +3,7 @@ entries:
   cadvisor:
   - apiVersion: v1
     appVersion: 0.49.1
-    created: "2025-04-14T17:21:57.864610768-03:00"
+    created: "2025-05-07T17:07:43.774110657-03:00"
     description: A chart for a Cadvisor deployment
     digest: 5cc52cf0f6efb244129b563f54371829ce213a66224a6a2d911224a82a0f2f9a
     home: https://github.com/google/cadvisor
@@ -29,7 +29,7 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 2.15.0
-    created: "2025-04-14T17:21:57.866054221-03:00"
+    created: "2025-05-07T17:07:43.780444922-03:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 433d480c115ffa5f38d3360ced18b681521d8d680488af51581b3945d3c97e9d
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -58,7 +58,26 @@ entries:
   opentelemetry-collector:
   - apiVersion: v2
     appVersion: 0.115.1
-    created: "2025-04-14T17:21:57.868515614-03:00"
+    created: "2025-05-07T17:07:43.804859635-03:00"
+    description: OpenTelemetry Collector Helm chart for Kubernetes
+    digest: 52f10b4d6b025f2c8f7a1baf30e447cd063e55c8d04a78e5ec815f5839c66e81
+    home: https://opentelemetry.io/
+    icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
+    maintainers:
+    - name: dmitryax
+    - name: jaronoff97
+    - name: TylerHelmuth
+    name: opentelemetry-collector
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-collector
+    - https://github.com/open-telemetry/opentelemetry-collector-contrib
+    type: application
+    urls:
+    - opentelemetry-collector-0.111.3.tgz
+    version: 0.111.3
+  - apiVersion: v2
+    appVersion: 0.115.1
+    created: "2025-05-07T17:07:43.793618916-03:00"
     description: OpenTelemetry Collector Helm chart for Kubernetes
     digest: 756e842a911113d6fa5bf6bfece38905851a018189edb3e372ae9ec49ec9db6e
     home: https://opentelemetry.io/
@@ -83,7 +102,7 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 1.9.0
-    created: "2025-04-14T17:21:57.86989572-03:00"
+    created: "2025-05-07T17:07:43.811168464-03:00"
     description: A Helm chart for prometheus node-exporter
     digest: c48c363ebdd2180ab0f57419d264475594a95dcdef5dbf55b397cab980d0afdf
     home: https://github.com/prometheus/node_exporter/
@@ -108,4 +127,4 @@ entries:
     urls:
     - prometheus-node-exporter-4.45.0.tgz
     version: 4.45.0
-generated: "2025-04-14T17:21:57.863211922-03:00"
+generated: "2025-05-07T17:07:43.768553578-03:00"
